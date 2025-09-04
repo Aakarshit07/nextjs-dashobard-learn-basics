@@ -79,6 +79,9 @@ export default function LoginForm() {
           )}
         </div>
       </div>
+      <div className="border border-gray-500 shadow-inner rounded-lg p-2 text-sm text-gray-900 bg-slate-100">
+        <p>Default: user@nextmail.com / 123456</p>
+      </div>
     </form>
   );
 }
